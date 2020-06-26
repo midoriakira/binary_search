@@ -21,7 +21,7 @@ int main(){
   }
 
   lb = 0;
-  ub = A[n - 1] + 1;
+  ub = 1000000001;
 
   while(ub - lb > 1){
     int m = (lb + ub) / 2;

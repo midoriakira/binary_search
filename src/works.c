@@ -15,7 +15,7 @@ int p(int x){
       pos++;
     }
   }
-  return hnum >= 0 && pos == n;
+  return pos == n;
 }
 
 int main(){
